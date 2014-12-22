@@ -1,0 +1,3 @@
+@function white($opacity){
+    @return rgba(255,255,255,$opacity)
+}
