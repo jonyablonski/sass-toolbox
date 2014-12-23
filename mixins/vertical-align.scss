@@ -1,11 +1,11 @@
-%vertical-center_parent:before {
+@mixin vertical-center_parent:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
 
-%vertical-center_child {
+@mixin vertical-center_child {
   display: inline-block;
   vertical-align: middle;
 }
