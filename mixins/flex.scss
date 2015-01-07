@@ -1,0 +1,4 @@
+@mixin flex($flexunit) {
+	display: flex;
+	flex: $flexunit;
+}
