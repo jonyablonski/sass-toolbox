@@ -1,0 +1,15 @@
+@mixin doubly($margin) {
+  & + & {
+    margin-left: $margin;
+    @content;
+  }
+}
+
+// Usage
+//  Zero out the top margins on all but the first paragraph
+p {
+  @include doubly() {
+    margin-top: 0; 
+    text-indent: 1.5em;
+  }
+}
