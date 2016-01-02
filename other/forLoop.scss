@@ -1,0 +1,6 @@
+@for $i from 1 through 100 {
+    $value: $i + "%";
+    #{$value} {
+        content: $value;
+    }
+}
